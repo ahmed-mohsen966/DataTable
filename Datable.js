@@ -1,6 +1,6 @@
     window.addEventListener("load",function(){
 
-        let posts;
+        let Posts;
         let postsInJson;
             (async function getPosts(){
         Posts = await fetch("https://jsonplaceholder.typicode.com/posts");
